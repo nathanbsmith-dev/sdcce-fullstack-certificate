@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Nathan B. Smith - Full-Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .tech-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #667eea;
+        }
+
+        .tech-item h3 {
+            color: #667eea;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .courses {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .courses li {
+            padding: 12px;
+            margin-bottom: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #764ba2;
+        }
+
+        .courses li strong {
+            color: #764ba2;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #764ba2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .tech-stack {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dr. Nathan B. Smith</h1>
+            <p>D.C.S | Full-Stack Web Developer</p>
+            <p>MERN Stack Specialist</p>
+        </header>
+
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                I'm Dr. Nathan B. Smith, D.C.S (Doctor of Computer Science), currently expanding my skills 
+                in modern full-stack web development through the MERN Stack Certificate Program at 
+                San Diego Community College District (SDCCD). I'm passionate about building scalable, 
+                efficient web applications using cutting-edge technologies.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>MERN Stack Certification</h2>
+            <p>
+                Currently pursuing a comprehensive certificate program covering the technologies used by 
+                companies like Uber, Netflix, Coinbase, and Pinterest to build high-performance web applications.
+            </p>
+            <ul class="courses">
+                <li><strong>COMP 690:</strong> Web Programming - JavaScript</li>
+                <li><strong>COMP 691:</strong> NoSQL Document Databases</li>
+                <li><strong>COMP 692:</strong> Building RESTful Web APIs</li>
+                <li><strong>COMP 693:</strong> JavaScript Frameworks</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Tech Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h3>MongoDB</h3>
+                    <p>NoSQL Database</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Express.js</h3>
+                    <p>Backend Framework</p>
+                </div>
+                <div class="tech-item">
+                    <h3>React</h3>
+                    <p>Frontend Library</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Node.js</h3>
+                    <p>JavaScript Runtime</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Connect With Me</h2>
+            <div class="social-links">
+                <a href="https://github.com/nathanbsmith-dev" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/nathanbsmith92163" target="_blank">LinkedIn</a>
+                <a href="https://github.com/nathanbsmith-dev/sdcce-fullstack-certificate" target="_blank">View My Coursework</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Dr. Nathan B. Smith, D.C.S. | Full-Stack Web Developer</p>
+        </footer>
+    </div>
+</body>
+</html>

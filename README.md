@@ -3,7 +3,7 @@
 # sdcce-fullstack-certificate
 # MERN Stack Certificate - My Learning Journey
 
-**Student:** Dr. Nathan B. Smith, D.C.S
+**Student:** Dr. Nathan B. Smith, D.C.S.
 
 This repository contains my coursework, projects, and notes from the **MERN Stack Certificate Program** at **San Diego Community College District (SDCCD)**.
 
@@ -26,7 +26,7 @@ I'm documenting my journey through this certificate program to:
 ## 📚 Course Progress
 
 ### ✅ COMP 690: Web Programming - JavaScript
-**Status:** In Progress / Completed  
+**Status:** In Progress 
 **Key Topics:**
 - JavaScript fundamentals and ES6+ features
 - Asynchronous programming (Promises, async/await)
@@ -40,7 +40,7 @@ I'm documenting my journey through this certificate program to:
 ---
 
 ### ✅ COMP 691: NoSQL Document Databases
-**Status:** Not Started / In Progress / Completed  
+**Status:** In Progress
 **Key Topics:**
 - MongoDB database design and architecture
 - Document-oriented data modeling
@@ -55,7 +55,7 @@ I'm documenting my journey through this certificate program to:
 ---
 
 ### ✅ COMP 692: Building RESTful Web APIs
-**Status:** Not Started / In Progress / Completed  
+**Status:** Not Started  
 **Key Topics:**
 - RESTful API design principles
 - Express.js framework and middleware
@@ -70,7 +70,7 @@ I'm documenting my journey through this certificate program to:
 ---
 
 ### ✅ COMP 693: JavaScript Frameworks
-**Status:** Not Started / In Progress / Completed  
+**Status:** Not Started
 **Key Topics:**
 - React component architecture
 - State management and React hooks
@@ -161,9 +161,9 @@ Brief description of the project, technologies used, and key features.
 
 ## 🛠️ Development Environment
 
-**Operating System:** [Your OS]  
-**Node Version:** [e.g., v18.x]  
-**MongoDB Version:** [e.g., v7.x]  
+**Operating System:** Ubuntu 24.04
+**Node Version:** TBD
+**MongoDB Version:** TBD  
 **Code Editor:** VS Code
 
 ### Setup Instructions
@@ -212,12 +212,10 @@ I'm Dr. Nathan B. Smith, D.C.S (Doctor of Computer Science), currently expanding
 
 ## 📫 Connect With Me
 
-- **GitHub:** [Your GitHub Profile]
-- **LinkedIn:** [Your LinkedIn]
-- **Portfolio:** [Your Website]
-- **Email:** [Your Email]
-
----
+- **GitHub:** [github.com/nathanbsmith-dev](https://github.com/nathanbsmith-dev)
+- **LinkedIn:** [linkedin.com/in/nathanbsmith92163](https://linkedin.com/in/nathanbsmith92163)
+- **Portfolio:** [https://nathanbsmith-dev.github.io](https://nathanbsmith-dev.github.io)
+- **Email:** [nsmith012@student.sdccd.edu](mailto:nsmith012@student.sdccd.edu)
 
 ## 📄 License
 
@@ -225,4 +223,4 @@ This repository contains my personal coursework and projects. Code is shared for
 
 ---
 
-*Last Updated: February 2026*
+*Last Updated: February 11, 2026*
